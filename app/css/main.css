@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body {
+	font: 100%/1.5em Arial,Helvetica, sans-serif;
+	color: #000;
+}
+/*flexible media*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul li {
+	list-style: none;
+}
+/*end flexible media*/
+.wrap {
+	/*display: flex;*/
+	max-width: 1020px;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid grey;
+
+}
+.main {
+
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: -o-flex;
+	display: flex;
+	/* flex-direction: row; */
+	/* height: 500px;  */
+	max-width: 1000px;
+	margin: 20px auto; 
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	flex-flow: row wrap;
+	border: 1px solid green;
+	
+}
+.bl {
+	
+	/* height: 100px; */
+	border: 2px solid red;
+	/* flex-basis: 500px;
+	flex-grow:1;
+	flex-shrink: 1; */
+	/* flex: 1 1 220px; */
+	/* width: 250px; */
+	/* margin: 20px; */
+	text-align: center;
+}
+
+.fl1 {background: #7cd2dd; flex-basis: 100%;} /* шапка */
+.fl2 {background: #95d051; flex-basis: 21.91%;} /* сайдбар */ 	
+/* .fl3 {
+	background: #eb9e65;
+	flex-basis: 58.72%;
+	flex-grow: 2; 
+	align-self: flex-start;
+	margin-left: 20px;
+}	
+.fl4 {background: #d051d0; flex-basis:58.72%; flex-grow: 2; */ 	
+.fl5 {background: #2f226e; flex-basis: 100%;} /* подвал */	
+.fl6 { /* контент */
+	background: #eee;
+ 	flex-basis: 58.72%;
+  	flex-grow: 2;}	
+/* .fl7 {background: #;}	
+.fl8 {background: #;} */	
+nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+nav ul li {
+	width: 23.7%;
+	/* max-height: 59px; */
+	border: 1px solid grey;
+
+}
+aside ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: column wrap;
+}
+aside ul li {
+	/* max-width: 100%; */
+	border: 1px solid blue;
+	margin-bottom: 20px;
+	height: 59px;
+}
+
+
+
+
