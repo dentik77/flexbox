@@ -1,8 +1,12 @@
 *{
 	margin: 0;
 	padding: 0;
-	
-}
+	}
+article,aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+} 	
+
 body {
 	font: 100%/1.5em Arial,Helvetica, sans-serif;
 	color: #000;
@@ -83,7 +87,7 @@ nav ul {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	margin-left: 10px;
+	margin-left: 24px;
 }
 nav ul li {
 	width: 23.7%;
@@ -100,12 +104,57 @@ aside ul {
 	flex-flow: column wrap;
 }
 aside ul li {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
 	/* max-width: 100%; */
 	border: 1px solid blue;
 	margin-bottom: 20px;
 	height: 59px;
 }
+aside ul li a {
+	margin-left: 10px;
+}
+section {
+	margin-left: 25px;
+}
+ul.images {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+ul.images {
 
-
-
-
+}
+ul.images li {
+	max-width: 48.8681%;
+	margin-bottom: 20px;
+}
+ul.images li h2 {
+	width: 196px;
+	font-size: 1.25em;
+	margin: 10px 0;
+	text-align: start;
+}
+/* ul.images li p {
+	width: 196px;
+	font-size: 1.25em;
+} */
+ul.images li img {
+	/* max-width: 48.86%; */
+	border: 1px solid #e2ddc7;
+}
+nav.fl3 {
+	/* display: none; */
+}
+.novos__item {
+	text-align: start;
+}
