@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-_opiryte {
+    width: 16px;
+    height: 15px;
+    background-position: -5px -5px;
+}
+
+.sprite-mail {
+    width: 23px;
+    height: 15px;
+    background-position: -31px -5px;
+}
+
+.sprite-search {
+    width: 33px;
+    height: 25px;
+    background-position: -5px -30px;
+}
+
+.sprite-skype {
+    width: 23px;
+    height: 22px;
+    background-position: -64px -5px;
+}
+
+.sprite-tell {
+    width: 25px;
+    height: 25px;
+    background-position: -48px -37px;
+}

@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -5px;
+}
+
+.sprite-fb-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -5px;
+}
+
+.sprite-googl {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -5px;
+}
+
+.sprite-googl-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -41px;
+}
+
+.sprite-ok {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -41px;
+}
+
+.sprite-ok-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -41px;
+}
+
+.sprite-tw {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -77px;
+}
+
+.sprite-tw-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -77px;
+}
+
+.sprite-vk {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -77px;
+}
+
+.sprite-vk-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -5px;
+}
+
+.sprite-youtube {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -41px;
+}
+
+.sprite-yutube-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -77px;
+}

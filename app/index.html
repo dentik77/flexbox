@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" href="http://signalkaprofy.ru/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="http://signalkaprofy.ru/favicon.ico" type="image/x-icon">
 	<!--FONTS-->
-	<link rel="stylesheet" href="#">
+	<link rel="stylesheet" href="font/fira.css">
 	<!--bower CSS -->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 
@@ -33,7 +33,67 @@
 <body>
 	<div class="wrap">
 		<div class="main">
-			<header class="bl fl1"><b>ШАПКА</b><br>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur asperiores blanditiis laborum unde exercitationem nihil illum, excepturi amet, nisi inventore corrupti atque natus illo sit odit nulla alias eos voluptate.</header>
+			<header class=" fl1 head">
+				<!--логотип-->
+				<div class="header-logo-link fl7">
+					<a  href="/index.html">
+						<img src="img/logo.png" alt="logo" class="logo-img">
+							<span class="header-logo-text">Сайт о сигнализации</span>
+					</a>
+				</div>
+				<!--конец логотип-->
+				<div class="page__header fl8"> 
+					
+					<div class="page__header-top">
+						<ul class="page__header-top-item">
+						<li class="header-top-item">
+							<p>signalkaprofy.ru</p>
+						</li>
+						<li class="header-top-item search">
+							<form>
+								<input name="" type="text" placeholder="Поиск по сайту" class="search__form-input">
+								<input name="" type="submit" value="" class="search__form-submit">
+							</form>
+						</li>
+						<li class="header-top-item registr">
+							<ul class="header__registr">
+								<li class="header-top-item">
+									<a id="in-form" href="#">Вход</a>
+								</li>
+								<li class="header-top-item">
+									/
+								</li>
+								<li class="header-top-item">
+									<a id="registr-form" href="">Регистрация</a>
+								</li>
+							</ul>
+							
+						</li>
+					</ul>
+					</div>
+					<div class="line-top"></div>
+					<div class="page__header-bottom">
+						<p class="header-top-item item-left">ОБУЧЕНИЕ ПРАКТИКА МАСТЕРСТВО</p>
+					
+						<p class="header-top-item item-right">Целью проекта является подготовка профессиональных кадров, а так же 
+	                            техническая поддержка профессионального сообщества в сфере охранных 
+	                            и пожарных систем безопасности.</p>
+	                            
+	                    <p class="header-bottom">Делай лучше чем делаешь...., делай больше чем делаешь....</p> 
+					</div>
+					<div class="line-bottom"></div>  
+					
+					<!--
+					<p class="header-top-item item-left">ОБУЧЕНИЕ ПРАКТИКА МАСТЕРСТВО</p>
+					<div class="line-top"></div>
+					<p class="header-top-item item-right">Целью проекта является подготовка профессиональных кадров, а так же 
+                            техническая поддержка профессионального сообщества в сфере охранных 
+                            и пожарных систем безопасности.</p>
+                    <p class="header-bottom">Делай лучше чем делаешь...., делай больше чем делаешь....</p> 
+					
+					<div class="line-bottom"></div>  		 -->	
+				</div>
+			</header>
 			 <aside class="bl fl2"><b>САЙТБАР ЛЕВЫЙ</b><br>
 			 	<ul>
 			 		<li class="aside__items"><a href="#">1 Lorem ipsum.</a></li>
@@ -106,8 +166,15 @@
 			 		</ul>
 			 	</section>
 			 </div>
-			 <footer class="bl fl5"><b>ПОДВАЛ</b><br>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil pariatur ut sunt? Praesentium tenetur expedita culpa illum amet cumque dolorem facilis soluta fugit omnis nesciunt excepturi, harum nam quas numquam.</footer> 
+			 
 		</div>
 	</div>
+	<footer class="bl fl5 page-footer">
+		<div class="wrap">
+			<div class="main">
+				<b>ПОДВАЛ</b><br>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil pariatur ut sunt? Praesentium tenetur expedita culpa illum amet cumque dolorem facilis soluta fugit omnis nesciunt excepturi, harum nam quas numquam.
+			</div>
+		</div>
+	</footer> 
 </body>
 </html>
