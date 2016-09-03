@@ -310,7 +310,7 @@ ul li {
   	flex-grow: 2;}	
 .fl7 {background: #; flex-basis: 21.8%; justify-content: flex-start;}	/* logo */
 .fl8 {background: #yellow; flex-basis: 77.7%;} /* header bez logo */	
-nav ul {
+.top-list {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -320,13 +320,13 @@ nav ul {
 	justify-content: space-between;
 	margin-left: 24px;
 }
-nav ul li {
+.menu__items {
 	width: 23.7%;
 	/* max-height: 59px; */
 	border: 1px solid grey;
 
 }
-aside ul {
+/* aside ul {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -342,15 +342,93 @@ aside ul li {
 	display: flex;
 	align-items: center;
 	/* max-width: 100%; */
-	border: 1px solid blue;
+/* 	border: 1px solid blue;
 	margin-bottom: 20px;
 	height: 59px;
 }
 aside ul li a {
-	margin-left: 10px;
+	margin-left: 10px; 
+} */
+/* sidbar */
+.sidbar {
+	float: left;
+	width: 22%;
+}
+.navigation {
+	overflow: hidden;/*чтобы при заливки скругление углов не пропадало*/
+	background: #fafcfa;
+	
+	margin-bottom: 26px;/*отступ сверху "от линии"*/
+	
+}
+.navigation .navigation-list {
+list-style: none;/*убирает точки слево перед ссылкой*/
+margin: 0;
+padding: 0;
+}
+.navigation .navigation-item {
+	border: 1px solid #3ba8c0;
+	margin-bottom: 12px;
+	height: 85px;
+	display: table;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	text-align: start;
+}
+.navigation .navigation-item:first-child {
+	border-top: none;
+}
+/*Навигация текущий пункт меню*/
+.navigation .navigation-item.current {
+	background: #fafcfa;
+	border: 1px solid #9adbc7;
+}
+.navigation .navigation-item.current .navigation-link {
+	color: #006a5a; /*Меняет цвет текста*/
+	font-size: 22px; 
+	}
+/*Конец текущий пункт меню*/
+.navigation .navigation-link {
+	font-family: 'OpenSans-Regular';
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fafcfa;
+	padding: 20px 16px;
+	line-height: 1em;
+	max-width: 165px;
+}
+.navigation .navigation-link:hover {
+	/*color: #3ba8c0;*/
+	color: #9adbc7;
+}
+.ohran {
+	background: #958f80;
+}
+.pogar {
+	background: #00985e;
+}
+.vid {
+	background: #c6a419;
+}
+.kontrd {
+	background: #dd9166
+}
+.dopmat {
+	background: #54595a;
+}
+.top-menu{
+	float: right;
+	width: 78%
 }
 section {
 	margin-left: 25px;
+}
+.content {
+	/* float: right;
+	width: 58% */
 }
 ul.images {
 	display: -webkit-flex;

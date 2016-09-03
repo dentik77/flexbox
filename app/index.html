@@ -20,6 +20,8 @@
 
 	<!--CSS-->
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<!-- <link rel="stylesheet" href="css/small.css"> -->
 	
 	<!--modernizr-->
 	<script src="bower/modernizr/modernizr.js"></script>
@@ -94,18 +96,34 @@
 					<div class="line-bottom"></div>  		 -->	
 				</div>
 			</header>
-			 <aside class="bl fl2"><b>САЙТБАР ЛЕВЫЙ</b><br>
-			 	<ul>
-			 		<li class="aside__items"><a href="#">1 Lorem ipsum.</a></li>
-			 		<li class="aside__items"><a href="#">2 Lorem ipsum.</a></li>
-			 		<li class="aside__items"><a href="#">3 Lorem ipsum.</a></li>
-			 		<li class="aside__items"><a href="#">4 Lorem ipsum.</a></li>
-			 		<li class="aside__items"><a href="#">5 Lorem ipsum.</a></li>
-			 	</ul>
+			 <aside class="sidbar"> <!-- class="bl fl2" -->
+			 	<nav class="navigation">
+			 		<a href="#" class="menu-triger"><span id="menu-icon"></span></a>
+						<ul class="navigation-list">
+							<li class="navigation-item current"><!--класс current используется для текущего пункта меню чтобы его стилизовать-->
+								<a href="/index.html" class="navigation-link">Домашняя страница</a>
+							</li>
+							<li class="navigation-item ohran">
+								<a href="/ohran.html" class="navigation-link">Охранная сигнализация</a>
+							</li>
+							<li class="navigation-item pogar">
+								<a href="#" class="navigation-link">Пожарная сигнализация</a>
+							</li>
+							<li class="navigation-item vid">
+								<a href="#" class="navigation-link">Видеонаблюдение</a>
+							</li>
+							<li class="navigation-item kontrd">
+								<a href="#" class="navigation-link">Контроль доступа</a>
+							</li>
+							<li class="navigation-item dopmat">
+								<a href="#" class="navigation-link">Дополнительные материалы</a>
+							</li>
+						</ul>
+				</nav>	
 			 </aside>
-			 <div class="bl fl6">
-			 	<nav class="bl fl3"><b>ГОРИЗОНТАЛЬНОЕ МЕНЮ</b><br>
-			 		<ul>
+			
+			 	<nav class="top-menu"><b>ГОРИЗОНТАЛЬНОЕ МЕНЮ</b><br>
+			 		<ul class="bl top-list">
 			 			<li class="menu__items"><a href="#">1 Lorem ipsum.</a></li>
 			 			<li class="menu__items"><a href="#">2 Lorem ipsum.</a></li>
 			 			<li class="menu__items"><a href="#">3 Lorem ipsum.</a></li>
@@ -116,7 +134,8 @@
 			 			<li class="menu__items"><a href="#">8 Lorem ipsum.</a></li>
 			 		</ul>
 			 	</nav>
-			 	<section class="bl fl4"><h1>КОНТЕНТ</h1><br><p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. In voluptas nam minima vero pariatur sunt nulla aliquam, consequuntur veritatis numquam saepe possimus cumque laboriosam odit aspernatur impedit expedita ut animi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maiores, error rem. Porro totam quod ab, sapiente explicabo ipsam fugit debitis nam delectus commodi! Maiores veniam quidem iste architecto, expedita dolore tempora repellat sapiente nostrum fuga velit eius quis, a et, quibusdam error sed, illo fugiat quam. Aut suscipit, fugiat sapiente asperiores, quia autem dolorum error temporibus quam. Fugiat saepe, cupiditate dicta. Similique, recusandae, numquam! Ratione nemo cupiditate eveniet vero excepturi velit, perspiciatis minus molestias porro magnam rerum voluptatum facilis et quibusdam ipsum nesciunt eligendi qui dolorum ducimus. Vero assumenda, odio quod autem nemo dignissimos? Inventore illo recusandae aliquam porro.</p>
+			 	 <div class="bl fl6">
+			 	<section class="content"><h1>КОНТЕНТ</h1><br><p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. In voluptas nam minima vero pariatur sunt nulla aliquam, consequuntur veritatis numquam saepe possimus cumque laboriosam odit aspernatur impedit expedita ut animi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maiores, error rem. Porro totam quod ab, sapiente explicabo ipsam fugit debitis nam delectus commodi! Maiores veniam quidem iste architecto, expedita dolore tempora repellat sapiente nostrum fuga velit eius quis, a et, quibusdam error sed, illo fugiat quam. Aut suscipit, fugiat sapiente asperiores, quia autem dolorum error temporibus quam. Fugiat saepe, cupiditate dicta. Similique, recusandae, numquam! Ratione nemo cupiditate eveniet vero excepturi velit, perspiciatis minus molestias porro magnam rerum voluptatum facilis et quibusdam ipsum nesciunt eligendi qui dolorum ducimus. Vero assumenda, odio quod autem nemo dignissimos? Inventore illo recusandae aliquam porro.</p>
 			 	<ul class="images">
 			 			<li>
 			 				<h2>Проектирование системы</h2>
@@ -176,5 +195,7 @@
 			</div>
 		</div>
 	</footer> 
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	 <script src="js/main.js"></script>
 </body>
 </html>

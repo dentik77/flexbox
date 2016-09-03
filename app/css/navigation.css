@@ -1,0 +1,39 @@
+#menu-icon {
+
+	border-bottom: 17px double black; 
+    border-top: 6px solid black; 
+    content:"";
+    height: 5px; 
+    width:30px;
+    display: block;
+    margin-left: 20px;
+}
+a.menu-triger {
+	display: none;
+}
+
+#menu-icon:hover {
+
+	/* background-color: #444; */
+	border-radius: 4px;
+
+}
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 760px) {
+
+	a.menu-triger {
+		display: block;
+
+}
+	.navigation {
+		width: 100%;
+	}
+	.navigation-list {
+		display: none;
+	}
+
+	}
+	
