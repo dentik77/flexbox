@@ -146,18 +146,20 @@ ul li {
 .search__form-input {
 	border: 2px solid #abb6b8;
 	padding: 8px 15px;
-
 	width: 88%;
-	margin-right: -42px;
+	margin-right: -37px;
 	font-family: 'OpenSans-Regular';
 	font-size: 0.937em;
+	position: relative;
 }	
 .search__form-submit {
-	width: 10%;
+	width: 35px;
 	background: #fff url(../img/search.png) top center no-repeat;
 	color: #ffffff;
 	border: 0 none;
 	vertical-align: middle;
+	position: absolute;
+	margin-top: 7px;
 }	
 .page-header .socials{
 	position: absolute;
@@ -484,7 +486,7 @@ ul.images li {
 	margin-bottom: 20px;
 }
 ul.images li h2 {
-	width: 196px;
+	width: 207px;
 	font-size: 1.25em;
 	margin: 10px 0;
 	text-align: start;
@@ -505,4 +507,53 @@ nav.fl3 {
 }
 .kont {
 	width: 78%
+}
+@media only screen and (max-width : 880px) {
+	.search {
+		order: 1;
+		margin-top: 20px;
+	}
+
+}
+@media only screen and (max-width : 800px) {
+	.kont {
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 670px){
+	.header-logo-link {
+		display: none;
+	}
+	.page__header {
+		margin: 0 auto;
+	}
+	.fl8 {
+		flex-basis: 100%;
+	}
+}
+@media only screen and (max-width : 500px){
+	.line-top {
+		display: none;
+	}
+	.page__header-bottom {
+		display: none;
+	}
+	.line-bottom {
+		display: none;
+	}
+	.page__header-top {
+		margin-bottom: 20px;
+	}
+	.header-top-item  {
+		font-size: 3vw;
+	}
+	.search__form-submit {
+		height: 20px;
+	}
+	ul.images {
+		flex: none;
+	}
+	ul.images li {
+		max-width: 100%;
+	}
 }

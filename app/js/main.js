@@ -20,7 +20,7 @@ $(document).ready(function() {
 		$('.top-list').slideToggle(500);
 			});
 	$(window).resize(function() {
-		if ($(window).width()>780){
+		if ($(window).width()>921){
 			// $(".top-list1").addClass("top-list"),
 			// $('.top-list').removeClass('top-list1');
 			$('.top-list').removeAttr('style');
@@ -68,6 +68,7 @@ $(document).ready(function() {
 		return this;
 	};
 })( jQuery, window, document );
+
 // (function(){
 // 	$('#nav')
 // 	e.preventDefault();
