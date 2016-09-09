@@ -21,6 +21,7 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/form.css">
 	<!-- <link rel="stylesheet" href="css/small.css"> -->
 	
 	<!--modernizr-->
@@ -237,16 +238,155 @@
 				 			</li>
 				 		</ul>
 				 	</section>
-		</div>
-	</div>
-	<footer class="bl fl5 page-footer">
+				 	<!--Создаем всплывающую форму авторизации id=in-fo -->
+				
+					<div id="modal-in"  class="form-content">
+						<section class="add-project">
+						<p class="add-project-title">Авторизация
+							<a class="close_popup b-close" href="#"></a>
+						</p>
+																
+							<form id="avtorizaciya" class="form-avtor" action="">
+								<label for="name">Логин</label>
+									<input type="text" id="name" required="" autofocus="" name="login" placeholder="Введите логин" class="name_project">
+								
+									
+								<label for="project-url">Пароль</label>
+										<input type="password" id="project-url" required="" placeholder="Введите пароль" name="pass" class="name_project" qtip-position="right" qtip content="Вы не ввели имя" class="input">
+
+										<!-- Забыли пароль -->
+										<a href="#" id="passend" class="passvordend" >Забыли пароль?</a>
+										<!--Конец забылипароль -->
+										<input class="buttom_in" type="submit">
+										
+							</form>
+							<p class="change_link">
+						                    Не зарегистрированы еще ?
+						                    <a href="#toregister" id="toregister" class="to_register b-close">Присоединяйтесь</a>
+						                </p>
+						</section>	
+					</div>
+			</div>
+	</div>		
+					<!-- end form avtorizate id=in-form-->
+
+					<!--Создаем всплывающую форму регистрации id=registr-form -->
+				
+					<div id="modal-reg"  class="form-content1">
+						<section class="add-project">
+						<p class="add-project-title">Регистрация
+							<a class="close_popup b-close" href="#"></a>
+						</p>
+																
+							<form id="registraciya" class="form-avtor" action="">
+								<label for="name">Имя</label>
+									<input type="text" id="name" required="" autofocus="" name="username" placeholder="Введите имя" class="name_project">
+
+
+									<label for="name">Почта</label>
+									<input type="text" id="name" required="" autofocus="" name="email" placeholder="Введите e-mail" class="name_project">
+
+									<label for="name">Логин</label>
+									<input type="text" id="name" required="" autofocus="" name="login" placeholder="Введите логин" class="name_project">
+								
+									
+								<label for="project-url">Пароль</label>
+									<input type="password" id="project-url" required="" placeholder="Введите пароль" name="pass" class="name_project" qtip-position="right" qtip content="Вы не ввели имя" class="input">
+							
+									<input class="buttom_registr" type="submit">
+							</form>
+							<p class="change_link">
+						                    Уже зарегистрированы ?
+						                    <a href="#toin" id="toin" class="to_register b-close">Войдите на сайт</a>
+						                </p>
+							
+							
+						</section>	
+					</div>
+				
+					<!-- end form avtorizate id=registr-form-->
+	
+	<footer class="fl5 page-footer">
 		<div class="wrap">
-			<div class="main">
-				<b>ПОДВАЛ</b><br>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil pariatur ut sunt? Praesentium tenetur expedita culpa illum amet cumque dolorem facilis soluta fugit omnis nesciunt excepturi, harum nam quas numquam.
+			<div class="main__footer">
+				<!--логотип-->
+				<div class="header-logo-footer">
+					<a  href="#">
+						<img src="img/logo-footer.png" alt="logo" class="logo-img-footer">
+							<span class="header-logo-text">Сайт о сигнализации</span>
+					</a>
+				</div>
+				<!--конец логотип-->
+				<div class="footer-top">
+					 <ul class="copyright">
+					 	<li class="copyright-item">2016</li>
+					 	<li class="copyright-item copyr"></li>
+					 	<li class="copyright-item">All right reserved</li>
+					 </ul>
+					
+					<!--Соцальные иконки-->
+					<ul class="socials">
+						<li class="socials-item">
+							<a href="#" target="blank" class="socials-link vk">vk.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+							</a>
+						</li>
+						<li class="socials-item">
+							<a href="#" target="blank" class="socials-link tw">twitter.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+							</a>	
+						</li>
+						<li class="socials-item">
+							<a href="#" target="blank" class="socials-link fb">facebook.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+							</a>	
+						</li>
+						<li class="socials-item">
+							<a href="#" target="blank" class="socials-link ok">github.com<!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+							</a>	
+						</li>
+						<li class="socials-item">
+							<a href="#" target="blank" class="socials-link googl">facebook.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+							</a>	
+						</li>
+						<li class="socials-item">
+							<a href="#" target="blank" class="socials-link ut">github.com<!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+							</a>	
+						</li>
+					</ul>
+				</div>
+				<!--конец социальные иконки-->
+				<div class="footer-content">
+					
+						<div class="footer-text">
+							<h4 class="footer-text-container">Как помочь проекту</h4>
+							<p>У Вас есть чем поделиться: опыт, знания, наработки? Напишите нам, мы поможем оформить и разместить предоставленную информацию с указанием Вашего авторства. Давайте вместе улучшать профессионализм и качество работ в сфере систем безопасности. 
+							Так же...</p>
+							<button class="footer-help">Помочь проекту</button>
+						</div>
+					<div class="footer-line"></div>	
+					<address class="contacts">
+						<div class="contact-header"> <!--Добавил класс- нужно описать -->
+							<ul class="contacts-list">
+								<li class="tell">
+									<a href="tel:+79288547469" class="contacts-tell"><span >+79288547469</span></a>
+								</li>
+								<li class="post">
+									<a href="mailto:den_nogin@mail.ru?subject=Вопрос с сайта" class="contacts-link"><span>den_nogin@mail.ru</span></a>
+								</li>
+								
+								<li class="skype">
+									<a href="skype:camylot77" class="contacts-skype"><span>camylot77</span></a>
+								</li>
+							</ul>
+
+						</div>							
+					</address>
+				
+				</div>
+				<span class="footer-disiner">design_Ranivel</span>
 			</div>
 		</div>
 	</footer> 
 	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	 <script src="js/main.js"></script>
+	 <script src="bower/bPopup/jquery.bpopup.js"></script>
 </body>
 </html>

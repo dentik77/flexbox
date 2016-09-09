@@ -1,0 +1,192 @@
+#modal {
+	display: none;
+}
+section.add-project {
+	background-color: #fafcfa;
+	/*border-radius: 4px;*/
+	box-shadow: 0 6px 12.5px 2.5px rgba(13, 16, 7, 0.35);
+	/*height: 493px;*/
+	/* width: 370px; */
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	/* position: absolute;
+	top: -235px;
+	left: -68px; */
+
+}
+p.add-project-title {
+	background-color: #006b5a;
+	border-bottom: 9px solid #c3a219;
+	/*border-radius: 4px 4px 0 0;*/
+	color: white;
+	font-family: "OpenSans-Regular";
+	font-size: 25px;
+	font-weight: 400;
+	padding: 12px;
+	margin-top: 0;
+}
+
+.registr-form {
+	padding-left: 20px;
+}
+.close_popup {
+	background: url(../img/close.png) no-repeat scroll 0 0;
+	color: #fff;
+	float: right;
+	height: 26px;
+	width: 26px;
+	margin: -10px -10px 0 0;
+	padding: 0px;
+	text-decoration: none;
+
+}
+
+.form-avtor {
+	padding: 0 15px ;
+
+}
+label {
+	color: #00985e;
+	display: block;
+	font-family: "OpenSans-Regular";
+	font-size: 20px;
+	font-weight: 300;
+}
+/*input[type="text"], input[type="url"], input[type="password"] {
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	/*border-radius: 4px;
+	max-width: 320px;
+	padding: 10px 9px;
+	width: 100%;
+	color: #48cbe8;
+
+}*/
+input {
+	line-height: normal;
+	margin-bottom: 10px;
+
+}
+
+.file_decor {
+	position: relative;
+	width: 320px;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	color: #48cbe8;
+	cursor: pointer;
+	height: 38px;
+	margin-bottom: 9px;
+	overflow: hidden;	
+}
+.decor_p {
+	float: left;
+	font-size: 17px;
+	margin: 0 0 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.load_scrin {
+	background: #48cbe8 url("../img/load.png") no-repeat scroll 10px 6px;
+	cursor: pointer;
+	float: right;
+	height: 40px;
+	width: 52px;	
+}
+.fila_decor .name_load {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+}
+.name_load {
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	color: #48cbe8;
+	height: 38px;
+	margin-bottom: 9px;
+	padding-left: 60px;
+	width: 320px;
+}
+input.name_project {
+	color: #958f80;
+	background-color: #fbfcfd;
+	border: 1px solid #54595A;
+	margin-bottom: 10px;
+	/* max-width: 320px; */
+	padding: 10px 9px;
+	width: 93%;
+	
+}
+.buttom_in {
+	background: url(../img/vhod.png) no-repeat scroll -0px -0px;
+	padding-left: 134px;
+	/*border: medium none;*/
+	height: 33px;
+	margin-bottom: 22px;
+	margin-left: 100px;
+	width: 140px;
+	/*border-radius: 4px;*/
+	font-size: 20px;
+	/*color: white;*/
+	margin-top: 10px;
+}
+.buttom_registr {
+	background: url(../img/registr1.png) no-repeat scroll -0px -0px;
+	padding-left: 134px;
+	/*border: medium none;*/
+	height: 33px;
+	margin-bottom: 22px;
+	margin-left: 100px;
+	width: 140px;
+	/*border-radius: 4px;*/
+	font-size: 20px;
+	/*color: white;*/
+	margin-top: 20px;
+}
+.change_link {
+	
+	background-color: #006B5A;
+	border-top: 9px solid #c3a219;
+	color: #fff;
+	font-family: 'OpenSans-Regular';
+	font-size: 14px;
+	height: 30px;
+	padding: 15px 10px 0;
+	margin: 0;
+}
+.to_register {
+	/*border: 1px solid #fbfcfd;*/
+	margin-left: 19px;
+	text-decoration: none;
+	color: #dd6b5a;
+	/*background-color: #dd6b5a;*/
+}
+.to_register:hover {
+	text-decoration: underline;
+}
+.passvordend {
+	display: block;
+	text-decoration: none;
+	color: #00985e;
+	font-size: 12px;
+	margin: 0;
+}
+.passvordend:hover {
+	text-decoration: underline;
+} 
+.form-content {
+	display: none;
+}
+.form-content1 {
+	display: none;
+}
+@media only screen and (max-width : 440px){
+	.change_link {
+		font-size: 10px;
+	}
+	p.add-project-title {
+		font-size: 20px;
+	}
+}
