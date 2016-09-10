@@ -8,7 +8,7 @@ footer, header, hgroup, menu, nav, section {
 } 	
 
 body {
-	background: url(../img/comppattern2.png) repeat;
+	/* background: url(../img/comppattern2.png) repeat; */
 	font: normal 1em 'OpenSans-Semibold';
 	color: #54595a;
 }
