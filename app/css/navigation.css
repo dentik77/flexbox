@@ -147,12 +147,12 @@ a.topmenu {
 		display: table-cell;
 		text-decoration: none;
 		font-family: 'OpenSans-Regular';
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 1em;
 		padding: 0px 10px;
 		text-align: left;
 		color: #6d706c;
-		width: 156px;
+		width: 750px;
 		height: 59px;
 		vertical-align: middle;
 	}
@@ -160,7 +160,7 @@ a.topmenu {
 	padding-top: 1px;
 	float: none;
 	background: url(../img/dot.png);
-	max-width: 178px;
+	max-width: 100%;
 	position: relative;
 	z-index: 1000;
 }
@@ -180,7 +180,7 @@ a.topmenu {
 .top-list li:hover ul li a:hover {
 	background-color: #fafcfa;
 	border: 1px solid #9adbc7;
-	width: 135px;
+	max-width: 100%;
 	text-decoration: underline;
 	-moz-transform: scale(1.05);
 	-webkit-transform: scale(1.05);

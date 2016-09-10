@@ -55,9 +55,8 @@ ul li {
 	display: -ms-flexbox;
 	display: -o-flex;
 	display: flex;
-	/* flex-direction: row; */
-	/* height: 500px;  */
-	max-width: 1000px;
+	/* max-width: 1000px; */
+	width: 98%;
 	margin: auto; 
 	justify-content: flex-start;
 	align-items: stretch;
@@ -74,9 +73,8 @@ ul li {
 	display: -ms-flexbox;
 	display: -o-flex;
 	display: flex;
-	/* flex-direction: row; */
-	/* height: 500px;  */
-	max-width: 1000px;
+	
+	/* max-width: 1000px; */
 	
 	align-items: stretch;
 	align-content: stretch;
@@ -85,11 +83,7 @@ ul li {
 }
 .header-logo-link {
 
-	/* flex-basis: 21.5%; */
-	/* align-self: start; */
-	/* float: left;
-	height: auto;
-	width: 20.5%; */
+	
 	border: 1px solid #958f80; 
 }
 .header-logo-text {
@@ -102,25 +96,11 @@ ul li {
 	/* height: 23.6%;  
 }*/
 .page__header {
-	/* display: -webkit-flex;
-	display: -webkit-box;
-	display: -moz-flex;
-	display: -ms-flexbox;
-	display: -o-flex;
-	display: flex;
 	
-	max-width: 1000px;
-	
-	align-items: stretch;
-	align-content: stretch;
-	flex-flow: column wrap;
-	border: 1px solid green; */
-	/* flex-direction: row; */
-	/* height: 500px;  */
 }
 .page__header-top-item {
-	/* background-color: #34f567; */
-	flex-basis: 30px;
+	
+	/* flex-basis: 30px; */
 	display: -webkit-flex;
 	display: -webkit-box;
 	display: -moz-flex;
@@ -146,7 +126,7 @@ ul li {
 	border: 2px solid #abb6b8;
 	padding: 8px 15px;
 	width: 88%;
-	margin-right: -37px;
+	margin-right: -41px;
 	font-family: 'OpenSans-Regular';
 	font-size: 0.937em;
 	position: relative;
@@ -173,7 +153,8 @@ ul li {
 .search {
 	margin-left: 13.9%;
 	flex-grow: 3;
-	flex-basis: 32%;
+	/* flex-basis: 32%; */
+	width: 32%;
 }
 .registr {
 	margin-left: 28px;
@@ -199,11 +180,6 @@ ul li {
 	display: -o-flex;
 	display: flex;
 	flex-flow: row wrap;
-	/* max-width: 755px; */
-	/* flex-direction: row; */
-	/* height: 500px;  */
-	/* align-items: stretch;
-	align-content: stretch; */
 	justify-content: flex-end;
 	margin: 15px 22px;
 }
@@ -220,14 +196,15 @@ ul li {
 	border-top: 2px solid #e2ddc7;
 	height: 2px;
 	width: 76.31%; 
-	/* flex-basis: 76.31%; */
+	
 	margin-top: 10px;
 	float: right;
 }
 .item-left {
-	flex-basis: 19.69%;
+	/* flex-basis: 19.69%; */
+	width: 19.69%;
 	flex-grow: 1;
-	/* width: 19.69%; */
+	
 	height: auto;
 	line-height: 1.5em;
 	font-family: 'OpenSans-Bold';
@@ -238,13 +215,14 @@ ul li {
 }
 
 .item-right{
-	flex-basis: 67.56%;
+	/* flex-basis: 67.56%; */
+	width: 67.56%;
 	flex-grow: 2;
-	/* width: 67.56%; */
+	
 	height: auto; 
 	/* padding: 4px 29px 0 0; */
 	padding: 10px 0 0 10px;
-	margin: 0;
+	margin-left: 60px;
 	font-family: 'OpenSans-Regular';
 	/* font-size: 0.875em; */
 }
@@ -277,20 +255,18 @@ ul li {
 
 .bl {
 	
-	/* height: 100px; */
+	
 	border: 2px solid red;
-	/* flex-basis: 500px;
-	flex-grow:1;
-	flex-shrink: 1; */
-	/* flex: 1 1 220px; */
-	/* width: 250px; */
-	/* margin: 20px; */
+	
 	text-align: center;
 }
 
 /* .fl1 {background: #7cd2dd; flex-basis: 100%;}  *//* шапка */
 
-.fl2 {background: #95d051; flex-basis: 21.91%;} /* сайдбар */ 	
+.fl2 {background: #95d051;
+	 /* flex-basis: 21.91%; */
+	 width: 21.91%;
+	} /* сайдбар */ 	
 /* .fl3 {
 	background: #eb9e65;
 	flex-basis: 58.72%;
@@ -301,13 +277,17 @@ ul li {
 .fl4 {background: #d051d0; flex-basis:58.72%; flex-grow: 2; */ 	
 .fl5 {/* background: #2f226e; */background: #958f80;
 	font-family: 'fira_sanslight';
-	color: #e8e9e5; flex-basis: 100%;} /* подвал */	
+	color: #e8e9e5; 
+	/* flex-basis: 100%; */
+	width: 100%;
+	} /* подвал */	
 .fl6 { /* контент */
 	background: #eee;
- 	flex-basis: 58.72%;
+ 	/* flex-basis: 58.72%; */
+ 	width: 58.71%;
   	flex-grow: 2;}	
-.fl7 {background: #; flex-basis: 21.8%; /* justify-content: flex-start; */}	/* logo */
-.fl8 {background: #yellow; flex-basis: 77.7%;} /* header bez logo */	
+.fl7 {/* background: #; flex-basis: 21.8%;  */width: 21.8%;/* justify-content: flex-start; */}	/* logo */
+.fl8 {/* background: #yellow; flex-basis: 77.7%; */ width: 77.7%} /* header bez logo */	
 
 
 
@@ -406,7 +386,7 @@ ul.images li {
 	margin-bottom: 20px;
 }
 ul.images li h2 {
-	width: 207px;
+	width: 205px;
 	font-size: 1.25em;
 	margin: 10px 0;
 	text-align: start;
@@ -437,7 +417,8 @@ nav.fl3 {
 	.header-logo-footer {
 	float: left;
 	border: 1px solid #b58d28;
-	flex-basis: 10%;
+	/* flex-basis: 10%; */
+	width: 10%;
 	/*height: 232px; настроечная*/ 
 }
 /* .logo-img-footer {
@@ -670,7 +651,8 @@ h4 {
 		margin: 0 auto;
 	}
 	.fl8 {
-		flex-basis: 100%;
+		/* flex-basis: 100%; */
+		width: 100%;
 	}
 }
 @media only screen and (max-width : 500px){
